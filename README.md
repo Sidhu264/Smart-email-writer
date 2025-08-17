@@ -15,7 +15,13 @@ The project is containerized with Docker, deployed on **Render (backend)** and *
 - 🎨 **Responsive UI** built with React + Material UI.  
 - 📋 Copy-to-clipboard functionality for generated replies.  
 - ☁️ **Deployed on Render & Netlify** for seamless cloud hosting.  
-- 🐳 **Dockerized backend** with multi-stage build for optimized deployment.  
+- 🐳 **Dockerized backend** with multi-stage build for optimized deployment.
+- 🧩 **Chrome Extension with Gmail Integration** – Injects an **AI Reply button** directly into Gmail’s compose toolbar.  
+   - Captures the email body from Gmail’s UI.  
+   - Calls the backend API to generate a professional reply.  
+   - Auto-inserts the generated reply into Gmail’s compose box.  
+   - Seamlessly blends with Gmail’s native UI/UX.  
+
 
 ---
 
