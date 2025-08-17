@@ -16,10 +16,10 @@ function App() {
     setError('')
     
     try{
-      const response = await axios.post("http://localhost:8080/api/email/generate", {
-        emailContent,
-        tone
-      });
+      const response = await axios.post(
+        `${import.meta.env.VITE_API_BASE_URL}/api/email/generate`,
+        { emailContent, tone }
+      );
       setGeneratedReply(typeof response.data === 'string' ? response.data : JSON.stringify(response.data));
     }catch(error){
       setError('Failed to generate reply. Please try again.');
