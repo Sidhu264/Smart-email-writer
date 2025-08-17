@@ -1,6 +1,6 @@
 # 📧 Smart Email Assistant  
 
-An AI-powered full-stack application that generates professional email replies using **Spring Boot**, **React.js**, and **Google Gemini AI API**.  
+An AI-powered full-stack application that generates professional email replies using **Spring Boot**,**Spring AI**, **React.js**, and **Google Gemini AI API**.  
 The project is containerized with Docker, deployed on **Render (backend)** and **Netlify (frontend)**.  
 
 ---
@@ -10,8 +10,7 @@ The project is containerized with Docker, deployed on **Render (backend)** and *
 
 ---
 
-## ✨ Features  
-- 🔐 **JWT-based authentication (backend-ready)** for secure API access.  
+## ✨ Features    
 - 🤖 **AI-powered email reply generation** using Gemini API.  
 - 🎨 **Responsive UI** built with React + Material UI.  
 - 📋 Copy-to-clipboard functionality for generated replies.  
