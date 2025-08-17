@@ -7,7 +7,7 @@ The project is containerized with Docker, deployed on **Render (backend)** and *
 
 ## 🚀 Live Demo  
 👉 [Smart Email Assistant – Live App](https://graceful-taiyaki-d75bd0.netlify.app)  
-⚠️ Note: The app is hosted on Render free tier, so it may take 30–60 seconds to spin up on the first request.
+ - ⚠️ Note: The app is hosted on Render free tier, so it may take 30–60 seconds to spin up on the first request.
 
 
 ---
