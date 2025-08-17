@@ -17,7 +17,7 @@ function App() {
     
     try{
       const response = await axios.post(
-        `${import.meta.env.VITE_API_BASE_URL}/api/email/generate`,
+        "https://smart-email-writer-pauj.onrender.com/api/email/generate",
         { emailContent, tone }
       );
       setGeneratedReply(typeof response.data === 'string' ? response.data : JSON.stringify(response.data));
